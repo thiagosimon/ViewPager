@@ -37,5 +37,8 @@ public class MainActivity extends AppCompatActivity {
 
         //Inserindo o Adapter no ViewPager
         viewPager.setAdapter(fragmentPageAdapter);
+
+        viewPager.setClipToPadding(false);
+        viewPager.setPageMargin(12);
     }
 }

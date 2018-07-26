@@ -12,6 +12,8 @@
         android:text="Fragmento Red"
         android:textColor="#ffffff"
         android:textSize="45dp"
-        android:background="#ff0000"/>
+        android:background="#ff0000"
+        android:paddingLeft="12dp"
+        android:paddingRight="24dp"/>
 
 </FrameLayout>
